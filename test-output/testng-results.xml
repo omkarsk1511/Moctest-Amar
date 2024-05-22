@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-19T18:12:44 IST" name="Suite" finished-at="2024-05-19T18:13:09 IST" duration-ms="25305">
+    <groups>
+      <group name="Sanity">
+        <method signature="AcademicCyclePageTest.academicCyclePageUrlTest()[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" name="academicCyclePageUrlTest" class="mocktest.testcases.AcademicCyclePageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="AcademicCyclePageTest.academicCyclePageUrlTest()[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" name="academicCyclePageUrlTest" class="mocktest.testcases.AcademicCyclePageTest"/>
+        <method signature="AcademicCyclePageTest.addacademiccycleBtnTest()[pri:1, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" name="addacademiccycleBtnTest" class="mocktest.testcases.AcademicCyclePageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-05-19T18:12:44 IST" name="Test_All" finished-at="2024-05-19T18:13:09 IST" duration-ms="25305">
+      <class name="mocktest.testcases.AcademicCyclePageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" started-at="2024-05-19T18:12:43 IST" name="loadConfig" finished-at="2024-05-19T18:12:44 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" started-at="2024-05-19T18:12:44 IST" name="setup" finished-at="2024-05-19T18:12:52 IST" duration-ms="8011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="academicCyclePageUrlTest()[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" started-at="2024-05-19T18:12:52 IST" name="academicCyclePageUrlTest" finished-at="2024-05-19T18:12:57 IST" duration-ms="5031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- academicCyclePageUrlTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" started-at="2024-05-19T18:12:57 IST" name="tearDown" finished-at="2024-05-19T18:12:57 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" started-at="2024-05-19T18:12:57 IST" name="setup" finished-at="2024-05-19T18:13:04 IST" duration-ms="6125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addacademiccycleBtnTest()[pri:1, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" started-at="2024-05-19T18:13:04 IST" name="addacademiccycleBtnTest" finished-at="2024-05-19T18:13:09 IST" duration-ms="5097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addacademiccycleBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" started-at="2024-05-19T18:13:09 IST" name="tearDown" finished-at="2024-05-19T18:13:09 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:mocktest.testcases.AcademicCyclePageTest@65b3a85a]" started-at="2024-05-19T18:13:09 IST" name="afterSuite" finished-at="2024-05-19T18:13:09 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- mocktest.testcases.AcademicCyclePageTest -->
+    </test> <!-- Test_All -->
+  </suite> <!-- Suite -->
+</testng-results>
